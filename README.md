@@ -401,5 +401,4 @@ tail -n 100 /var/log/supervisor/frontend.*.log
 - Never hardcode URLs or ports; always use the environment variables described above.
 - Keep `/api` prefix on all backend routes to match ingress.
 - For `.pth` and `.onnx` use cases, prefer the Node.js template with Python adapters.
-
-Happy building! 🚀
+ 🚀
