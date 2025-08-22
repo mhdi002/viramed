@@ -1,0 +1,35 @@
+/root/.venv/lib/python3.11/site-packages/pydantic/_internal/_fields.py:160: UserWarning: Field "model_type" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/root/.venv/lib/python3.11/site-packages/pydantic/_internal/_fields.py:160: UserWarning: Field "model_name" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/root/.venv/lib/python3.11/site-packages/pydantic/_internal/_fields.py:160: UserWarning: Field "model_domain" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+2025-08-22 19:36:13,409 - utils.database - INFO - Successfully connected to MongoDB
+/root/.venv/lib/python3.11/site-packages/pydantic/_internal/_fields.py:160: UserWarning: Field "model_type" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/root/.venv/lib/python3.11/site-packages/pydantic/_internal/_fields.py:160: UserWarning: Field "model_name" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+INFO:     Started server process [1092]
+INFO:     Waiting for application startup.
+2025-08-22 19:36:13,560 - main - INFO - Starting Medical AI Backend System...
+2025-08-22 19:36:13,565 - utils.database - INFO - Database initialized successfully
+2025-08-22 19:36:13,565 - main - INFO - Database initialized successfully
+2025-08-22 19:36:13,566 - main - INFO - Default admin user setup completed
+2025-08-22 19:36:13,566 - main - INFO - Storage directories created
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8001): address already in use
+INFO:     Waiting for application shutdown.
+2025-08-22 19:36:13,567 - main - INFO - Shutting down Medical AI Backend System...
+2025-08-22 19:36:13,567 - utils.database - INFO - Database connection closed
+2025-08-22 19:36:13,567 - main - INFO - Database connection closed
+INFO:     Application shutdown complete.
